@@ -14,6 +14,22 @@ body {
   padding-bottom: 80px;
 }
 
+#scatter::before {
+  position: absolute;
+  top: 75px;
+  left: 250px;
+  z-index: -1;
+  display: block;
+  width: 500px;
+  height: 400px;
+  content: " ";
+  background-image: url("https://www.newenglandrealestateacademy.com/wp-content/uploads/2015/07/smolke-free-properties-504.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: 560px;
+  opacity: 0.15;
+}
+
 #footer {
   position: absolute;
   bottom: 0;
@@ -28,4 +44,18 @@ body {
 #footer p {
   margin: 0;
   font-size: 16px;
+}
+
+.tooltip {
+  position: absolute;
+  width: 150px;
+  height: 90px;
+  padding: 2px;
+  padding-top: 8px;
+  font: 12px sans-serif;
+  color: white;
+  text-align: center;
+  background: grey;
+  border: 0;
+  border-radius: 10px;
 }
